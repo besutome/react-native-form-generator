@@ -52,7 +52,7 @@ import {Field} from './Field';
           <Text style={formStyles.fieldText}>{this.props.placeholder}</Text>
           <View style={[formStyles.alignRight, formStyles.horizontalContainer]}>
             <Text style={formStyles.fieldValue}>{
-            (this.state.date)?this.state.date.toLocaleDateString():""
+            (this.state.date)?this.state.date.toLocaleDateString():"未選択"
           }</Text>
 
 
